@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <label><h1 class="text">TODO Task details</h1></label>
+            </div>
+            <div class="card-body">
+                <form id="frm">
+                    <input type="hidden" id="index">
+                   <div class="form-group">
+                       <label for="">Task </label>
+                       <input type="text" class="form-control" id="task">
+                   </div>
+
+                   <div class="form-group">
+                    <label for="">Day</label>
+                    <input type="text" class="form-control" id="day">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Time</label>
+                    <input type="text" class="form-control" id="time">
+                </div>
+                <div class="form-group">
+                    <label for="">Deadline</label>
+                    <input type="text" class="form-control" id="deadline">
+                </div>
+
+                <div class="form-group">
+                  <button class="btn btn-submit" type="button" id="btn_add">Submit</button>
+            </div>
+        </form>
+        </div>
+        </div>
+
+        <div class="book-content">
+            <table class="table" id="tbl">
+                <thead>
+                    <tr>
+                        <th>SNo.</th>
+                        <th>Task</th>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Deadline</th>
+                        <th width="100">Action</th>
+                        </tr>
+                </thead>
+                <tbody>
+                  
+                </tbody>
+            </table>
+        </div>
+    </div>
+<script src="index2.js"></script>
+</body>
+</html>
